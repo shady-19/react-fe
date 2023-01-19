@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN npm install 
 
-RUN npm install requirements.txt
+RUN  requirements.txt
 
 COPY . .
 
